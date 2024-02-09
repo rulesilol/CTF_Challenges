@@ -34,3 +34,5 @@ for i in range(19):
 returnFlag += "}"
 
 print(returnFlag)
+print("testing git")
+print("Hope git works")
