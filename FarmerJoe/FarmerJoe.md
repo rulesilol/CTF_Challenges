@@ -6,7 +6,7 @@ budget and cost of fencing material?
 P.S. Round the area down to the nearest integer. Joe hates paying land taxes!!!
 
 **Input:**
-The first input is Joe's budget - Float \n
+The first input is Joe's budget - Float \
 The second input is the cost per metre of fencing - Float
 
 **Output:**
