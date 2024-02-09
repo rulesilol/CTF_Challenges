@@ -5,14 +5,14 @@ However, he has only has limited budget. Can you help him find the largest area 
 budget and cost of fencing material?
 P.S. Round the area down to the nearest integer. Joe hates paying land taxes!!!
 
-**Input**
+**Input:**
 The first input is Joe's budget - Float
 The second input is the cost per metre of fencing - Float
 
-**Output**
+**Output:**
 The maximum area possible given the Joe's budget and cost of fencing - Integer
 
-**Example**
+**Example:**
 Input: budget=640.0, fenceCost=8.0
 Output: 800
 Explanation:
