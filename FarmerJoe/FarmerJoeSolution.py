@@ -6,6 +6,10 @@ import hashlib
 def maxArea(budget: float, fenceCost: float) -> int:
     # Insert Code Here
 
+    x = budget / (fenceCost * 4)
+    y = (budget / 2)/(fenceCost)
+    area = int(x * y )
+
     return area
 
 assert maxArea(100.0, 3.0) == 138
