@@ -1,6 +1,4 @@
 import random
-import string
-from itertools import cycle
 import hashlib
 
 def maxArea(budget: float, fenceCost: float) -> int:
