@@ -13,9 +13,9 @@ The second input is the cost per metre of fencing - *float*
 The maximum area possible given the Joe's budget and cost of fencing - *integer*
 
 **Example:**\
-Input: budget=640.0, fenceCost=8.0
-Output: 800
-Explanation:
+Input: budget=640.0, fenceCost=8.0\
+Output: 800\
+**Explanation**:\
 Having a fence with a length of 40 and a width of 20 means 80m of fencing material and will cost $640. This will give
 an area of 800, which is the maximum area.
 
