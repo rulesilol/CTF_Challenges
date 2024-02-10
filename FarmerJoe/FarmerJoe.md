@@ -12,7 +12,7 @@ The second input is the cost per metre of fencing - *float*
 **Output:**\
 The maximum area possible given the Joe's budget and cost of fencing - *integer*
 
-**Example:**
+**Example:**\
 Input: budget=640.0, fenceCost=8.0
 Output: 800
 Explanation:
