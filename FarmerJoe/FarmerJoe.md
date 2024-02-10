@@ -2,7 +2,7 @@
 Farmer Joe has many cows and wants to build a rectangular fence for his cows. Luckily, has an
 infinitely long wall that he can build his fence against. Therefore, he only needs to build three sides of the fence.
 However, he has only has limited budget. Can you help him find the largest area he can make his fence, given the 
-budget and cost of fencing material?
+budget and cost of fencing material?\
 P.S. Round the area down to the nearest integer. Joe hates paying land taxes!!!
 
 **Input:**\
