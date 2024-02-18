@@ -2,9 +2,18 @@ import random
 import hashlib
 
 def maxArea(budget: float, fenceCost: float) -> int:
-    # Insert Code Here
+    currentMaxArea = 0
+    totalLenf = budget/fenceCost
 
-    return area
+    for i in range(int(totalLenf) + 1):
+        for j in range(int(totalLenf) + 1):
+            currentArea = i * j
+            if currentArea > currentMaxArea:
+                if ((2*i) + j) <= totalLenf:
+                    currentMaxArea = currentArea
+
+    print(i, currentMaxArea)
+    return currentMaxArea
 
 assert maxArea(100.0, 3.0) == 138
 assert maxArea(640.0, 8.0) == 800

@@ -4,8 +4,8 @@ import hashlib
 def maxArea(budget: float, fenceCost: float) -> int:
     # Insert Code Here
 
-    x = budget / (fenceCost * 4)
-    y = (budget / 2)/(fenceCost)
+    x = budget/(fenceCost * 4)
+    y = budget/(fenceCost * 2)
     area = int(x * y )
 
     return area
