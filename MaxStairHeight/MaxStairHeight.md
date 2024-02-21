@@ -18,6 +18,6 @@ Input: startHeight=5, endHeight=6, length=6\
 Output: 9\
 **Explanation**:\
 Our starting height is 5. So we can go up 4 steps (to a height of 9) before we are required to start moving down in order 
-to reach the ending height. Therefore, the maximum height is 9.
+to reach the ending height. Therefore, the maximum height attained is 9.
 
 <img src="./ExampleImage.png" width="700" />
