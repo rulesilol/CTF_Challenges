@@ -1,6 +1,5 @@
 import random
 import string
-from itertools import cycle
 import hashlib
 
 def maxStairHeight(startHeight, endHeight, length):
