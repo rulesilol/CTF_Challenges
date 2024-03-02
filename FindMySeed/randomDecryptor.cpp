@@ -14,7 +14,7 @@ class LittlePRNG {
             // std::cout << "a is " << a << std::endl;
             int b = (seedB >> 12) ^ (seedC << 22) + 852145;
             // std::cout << "b is " << b << std::endl;
-            int c = (seedA << 3 | seedC >> 18);
+            int c = ((seedA << 3 | seedC >> 18));
             // std::cout << "c is " << c << std::endl;
             int randomNumber  = ((a ^ b) * 7 ) ^ c;
             // std::cout << "r is " << r << std::endl;
@@ -52,7 +52,7 @@ char decryptor(std::string encryptedChar, int key) {
 
 int main() {
     LittlePRNG my_prng;
-    my_prng.setSeed(811878287, 502635199, 1723710779);
+    my_prng.setSeed(275007375, 502632448, 102498619);
     // std::string plaintext = "The flag is FLAG{Dont_Roll_Your_Own_Crypto}";
     std::string encryptedText = "915066730242344700629617451930536631439876192487610047514988717581037147488731737653619857039798455381397973353253753096668315063";
     std::string plaintext;
@@ -61,5 +61,6 @@ int main() {
 
     };
     std::cout << plaintext;
+    
     return 0;
 };

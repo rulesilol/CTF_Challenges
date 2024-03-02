@@ -12,7 +12,7 @@ class LittlePRNG {
         
             int a = (seedA << 13) * 11;
             int b = (seedB >> 12) ^ (seedC << 22) + 852145;
-            int c = (seedA << 3 | seedC >> 18);
+            int c = ((seedA << 3 | seedC >> 18));
             int randomNumber  = ((a ^ b) * 7 ) ^ c;
 
             seedA = b ^ c;
