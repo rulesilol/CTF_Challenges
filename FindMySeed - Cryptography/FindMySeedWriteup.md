@@ -1,4 +1,5 @@
 **Solution Writeup**\
+Reference the FindMySeed.py file\
 For this problem, we mainly use Z3. As we can see in the Python script, we first recreate 
 the PRNG generator in the function *myprng*. Note the '& 0xFFFFFFFF' after every calculation.
 This ensures that only 32-bit numbers are used. Then we initialize the BitVecs using 32 bits and 
