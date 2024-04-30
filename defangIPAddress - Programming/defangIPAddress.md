@@ -15,3 +15,5 @@ Input: www.google.com\
 Output: www[.]google[.]com\
 **Explanation**:\
 Both the "." is wrapped in a square bracket ([])
+
+This is a warm up question, just to test if the random number generator is working!!!

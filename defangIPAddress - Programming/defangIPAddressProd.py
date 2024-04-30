@@ -1,3 +1,5 @@
+## This is a warm up question, just to test if the random number generator is working!!!
+
 import random
 from itertools import cycle
 import hashlib
